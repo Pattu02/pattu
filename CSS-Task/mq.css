@@ -1,0 +1,111 @@
+.mq {
+    display: grid;
+    grid-template-columns: repeat(1,90%);
+    box-shadow: 0 0 10px grey;
+    justify-content: center;
+
+}
+
+.mq1 {
+    display: grid;
+    grid-template-columns: repeat(2, 49.6%);
+    padding: 1%;
+    
+}
+.mq1 .mqbox1{
+    padding: 3%;
+    background-color:rgb(235, 142, 67);
+    height: 100px;
+    margin: 1%;
+}
+.mq2{
+    display: grid;
+    grid-template-columns: repeat(1, 99%);
+    padding: 1%;
+    
+}
+.mq2 .mqbox2{
+    padding: 3%;
+    background-color:rgb(196, 235, 55);
+    height: 400px;
+    margin: 1%;
+}
+.mq3 {
+    display: grid;
+    grid-template-columns: repeat(3, 33.1%);
+    padding: 1%;
+    
+}
+.mq3 .mqbox3{
+    padding: 3%;
+    background-color:rgba(26, 127, 185, 0.719);
+    height: 200px;
+    margin: 1%;
+}
+.mq4 {
+    display: grid;
+    grid-template-columns: repeat(4, 24.8%);
+    padding: 1%;
+    
+}
+.mq4 .mqbox4{
+    padding: 2%;
+    background-color:rgb(139, 127, 123);
+    height: 150px;
+    margin: 1%;
+}
+@media only screen and (min-width:280px)and (max-width:768px) {
+    .mq{
+        width:50%
+    }
+    .mq1{
+        grid-template-columns: repeat(1,100%);
+    }
+    .mq1 .mqbox1{
+        height: 70px;
+    }
+    .mq2{
+        grid-template-columns:repeat(1,100%);
+    }
+    .mq2 .mqbox2{
+        height: 120px;
+    }
+    .mq3{
+        grid-template-columns: repeat(1,100%);
+    }
+    .mq3 .mqbox3{
+        height: 100px;
+    }
+    .mq4{
+        grid-template-columns: repeat(1,100%);
+    }
+    .mq4 .mqbox4{
+        height: 50px;
+    }
+}
+@media only screen and (min-width:768px)and (max-width:1024px) {
+    .mq1{
+        grid-template-columns: repeat(1,100%);
+    }
+    .mq1 .mqbox1{
+        height: 70px;
+    }
+    .mq2{
+        grid-template-columns:repeat(1,100%);
+    }
+    .mq2 .mqbox2{
+        height: 170px;
+    }
+    .mq3{
+        grid-template-columns: repeat(1,100%);
+    }
+    .mq3 .mqbox3{
+        height: 70px;
+    }
+    .mq4{
+        grid-template-columns: repeat(2,50%);
+    }
+    .mq4 .mqbox4{
+        height: 70px;
+    }
+}

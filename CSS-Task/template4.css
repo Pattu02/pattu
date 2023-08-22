@@ -1,0 +1,812 @@
+body {
+    margin: 0px;
+}
+
+#one {
+    color: #FEA116;
+    background-color: #0F172B;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 3% 42% 6.1% 5.1% 5.9% 4.5% 5.2% 6% 6.42%;
+    justify-content: center;
+    z-index: 999;
+    height: 80px;
+}
+
+#one i {
+    font-size: 45px;
+    margin-top: 30%;
+    margin-right: 30%;
+}
+
+#one h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-top: 2%;
+}
+
+a {
+    margin-top: 34px;
+    text-decoration: none;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 15px;
+    text-align: end;
+}
+
+a:hover {
+    color: #FEA116;
+}
+
+#one button {
+    margin-top: 22%;
+    background-color: #FEA116;
+    color: white;
+    width: 150px;
+    margin-left: 15%;
+    height: 45%;
+}
+
+#three {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    height: 87%;
+    margin-left: 5%;
+    margin-right: 3.5%;
+}
+
+#four button {
+    border: none;
+    background-color: #FEA116;
+    color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+#head {
+    position: relative;
+}
+
+#head #three {
+    position: absolute;
+    top: 0px
+}
+
+#four h1 {
+    padding-top: 175px;
+    color: white;
+    width: 500px;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 0px;
+}
+
+#four p {
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 95%;
+}
+
+
+#two img {
+    width: 90vw;
+    height: 800px;
+    margin-left: 75px;
+}
+
+#four #b1 {
+    padding: 20px;
+}
+
+#body-six {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin-left: 75px;
+}
+
+.six {
+    border: 0px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px grey;
+    width: 230px;
+
+}
+
+.six i {
+    color: #FEA116;
+}
+
+.six h5 {
+    font-size: 1.25rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.six p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+}
+
+.six:hover {
+    color: white;
+    background-color: #FEA116;
+}
+
+.six:hover i{
+    color: white;
+    background-color: #FEA116;
+
+
+}
+
+.seven {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+#bodyss {
+    display: grid;
+    grid-template-columns: 50% 48%;
+    justify-content: center;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.seven #img1 {
+    margin-left: 8.9%;
+}
+
+.seven #img2 {
+    margin-left: 0%;
+    margin-top: 20.5%;
+}
+
+.seven #img3 {
+    margin-top: 4%;
+    padding-left: 28.9%;
+}
+
+.seven #img4 {
+    margin-top: 4%;
+    margin-left: 0%;
+}
+
+.eight #p1 {
+    margin-top: 135px;
+    color: #FEA116;
+    font-family: Pacifico, cursive;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+/*#p1::after {
+    content: "----";
+    width: 45px;
+    height: 2px;
+    color: #FEA116;
+    padding-bottom: 5px;
+
+
+}*/
+
+.eight h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.eight p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666565;
+}
+
+.s1 {
+    color: #FEA116;
+    font-size: 3rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+.s2 {
+    color: #FEA116;
+    font-size: 3rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.s3 {
+    color: #666565;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.s3 p {
+    margin-bottom: 3px;
+}
+
+.s3 h5 {
+    margin-top: 0px;
+    color: black;
+}
+
+#span {
+    display: grid;
+    grid-template-columns: 5% 10% 35% 5% 10% 30%;
+    margin-top: 25px;
+}
+
+#b1 {
+    background-color: #FEA116;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+#body h5 {
+    color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 0px;
+}
+
+#body h1 {
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+#bodyn {
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    justify-content: center;
+}
+
+.nine {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 13%;
+}
+
+.nine i {
+    font-size: 30px;
+    color: #FEA116;
+}
+
+.ten small {
+    color: #666565;
+    font-size: .875rem;
+    font-family: "Heebo", sans-serif;
+}
+
+.ten h6 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    margin-top: -5px;
+    font-size: .875rem;
+}
+
+.ele2 {
+    display: grid;
+    grid-template-columns: 30% 20%;
+    justify-content: space-between;
+    height: 35%;
+}
+
+.ele {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.body1 {
+    display: grid;
+    grid-template-columns: 37% 37%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.ele2 span {
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 7%;
+
+
+}
+
+.ele2 p {
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #FEA116;
+    text-transform: capitalize;
+    margin-top: 10%;
+}
+
+.ele1 hr {
+    color: #666565;
+}
+
+.ele1 small {
+    color: #666565;
+    font-style: italic;
+    font-family: "Heebo", sans-serif;
+    font-size: .875rem;
+}
+
+.bodyimg img {
+    width: 100%;
+    height: 115%;
+}
+
+.twe1 {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    width: 100%;
+    position: relative;
+}
+
+.twe form {
+    display: grid;
+    grid-template-columns: 95%;
+    height: 70%;
+    width: 100%;
+}
+
+.body2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+.bodyimg {
+    position: relative;
+}
+
+.bodyimg i {
+    font-size: 20px;
+    color: #0F172B;
+}
+
+.bodyimg button {
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 60%;
+    border: none;
+    background-color: #FEA116;
+}
+
+.twe {
+    background-color: #0F172B;
+    height: 115%;
+    padding-left: 7%;
+}
+
+.twe h5 {
+    color: #FEA116;
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+}
+
+.twe h1 {
+    color: aliceblue;
+    font-family: "Nunito", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 1%;
+}
+
+[placeholder="Your Name"] {
+    margin-bottom: 5%;
+
+}
+
+[placeholder="Email"] {
+    margin-left: 5%;
+    margin-bottom: 5%
+}
+
+[placeholder="Date&time"] {
+    margin-bottom: 5%
+}
+
+.twe1 #select {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: none;
+}
+
+.twe1 label {
+    position: absolute;
+    top: 51%;
+    right: 32.5%;
+    font-size: .875rem;
+    color: #666565;
+}
+
+form textarea {
+    width: 97%;
+    height: 75%;
+}
+
+form button {
+    margin-top: -3px;
+    width: 98%;
+    height: 50%;
+    background-color: #FEA116;
+    color: #F1F8FF;
+}
+
+.the {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.body3>h5 {
+    font-size: 1.25rem;
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.body3 h1 {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0%;
+
+}
+
+.the1 img {
+    width: 70%;
+    border-radius: 70%;
+
+}
+
+.the1 {
+    box-shadow: 0 0 3px rgb(199, 190, 190);
+    padding-top: 10%;
+    text-align: center;
+    margin-top: 7%;
+    padding-bottom: 5%;
+}
+
+.the1 h5 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0%;
+}
+
+.the1 small {
+    font-family: "Heebo", sans-serif;
+    font-size: .875rem;
+    color: #666565;
+}
+.the1:hover{
+          height: 90%;
+}
+
+.body4 h5 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: .1%;
+    margin-top: 5%;
+}
+
+.body4 h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.bodyfor {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.for {
+    box-shadow: 0 0 2px grey;
+    padding: 4%;
+}
+
+.for1 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 2%;
+}
+
+.for4 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 2%;
+}
+
+.for i {
+    font-size: 2.5rem;
+    color: #FEA116;
+}
+
+.for p {
+    margin: 0%;
+    font-family: "Heebo", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+}
+
+.fort i {
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+.fort {
+    background-color: #FEA116;
+    padding: 4%;
+}
+
+.fort p {
+    color: aliceblue;
+    margin: 0%;
+    font-family: "Heebo", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.for4 h5 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    color: aliceblue;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.for4 small {
+    font-family: "Heebo", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: aliceblue
+}
+
+.for5 img {
+    width: 80%;
+    border-radius: 70%;
+}
+
+.for2 img {
+    width: 80%;
+    border-radius: 70%;
+}
+
+.for1 h5 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    color: black;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.for1 small {
+    font-family: "Heebo", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #666565;
+}
+
+#body5 {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    justify-content: space-evenly;
+    background-color: #0F172B;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fif2 {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    color: #F1F8FF;
+    margin-top: 4%;
+    height: 15%;
+}
+
+h4 i {
+    color: #FEA116;
+}
+
+.fif2 i {
+    width: 70%;
+    border-radius: 60%;
+    border: 2px solid #F1F8FF;
+    text-align: center;
+    padding-top: 15%;
+    font-size: .9rem;
+}
+
+.fif2 i:hover {
+    color: #FEA116;
+    background-color: #F1F8FF;
+}
+
+.fif1 {
+    margin-top: 25%;
+}
+
+.fif1 h4 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.fif1 a {
+    display: block;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    font-family: Nunito, sans-serif;
+    font-size: .9rem;
+    text-align: left;
+}
+
+.fif1 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #F1F8FF;
+}
+
+.fif1 h5 {
+    font-family: "Nunito", sans-serif;
+    color: #F1F8FF;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0%;
+}
+
+.fif3 {
+    margin-top: 25%;
+
+}
+
+.fif3 h4 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.fif3 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #F1F8FF;
+    margin-top: 3%;
+}
+
+.fif3 h5 {
+    font-family: "Nunito", sans-serif;
+    color: #F1F8FF;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0%;
+}
+
+.fiff {
+    position: relative;
+}
+
+.fiff button {
+    position: absolute;
+    right: 0%;
+    top: 13%;
+    width: 33%;
+    height: 10vh;
+    border: none;
+}
+
+.fiff input {
+    width: 100%;
+    height: 11vh;
+}
+
+.sic {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 76vw;
+    margin-top: 17%;
+    margin-bottom: 15%;
+    border-top: 1px solid #666565;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 6%;
+    color: #F1F8FF;
+}
+
+.sic2 {
+    display: grid;
+    grid-template-columns: 3% 18% 3% 24% 3% 15% 3% 20%;
+    height: 10%;
+}
+
+.sic2 a {
+    margin: 0%;
+    text-align: left;
+}
+
+.sic2 span {
+    color: #666565;
+}

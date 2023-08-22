@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/selector.css"/>
+    </head>
+    <body>
+        <h1>table</h1>
+        <table border="2">
+            <tr>
+                <th>name</th>
+                <th>year</th>
+                <th>age</th> 
+            </tr>
+            <tr>
+                <td>pattu</td>
+                <td>2001</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>sam</td>
+                <td>2002</td>
+                <td>22</td>
+            </tr>
+        </table>
+        <h1>row merging</h1>
+        <table border="4">
+            <tr>
+                <th>name</th>
+                <th>year</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>pattu</td>
+                <td>2001</td>
+                <td rowspan="2">21</td>
+            </tr>
+            <tr>
+                <td>sam</td>
+                <td>2002</td>
+            </tr>
+        </table>
+        <h1>column merging</h1>
+        <table border="4">
+            <tr>
+                <th>s.no</th>
+                <th>product</th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>note</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>pen</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td colspan="2">total</td>
+                <td>45</td>
+            </tr>
+        </table>
+        <table>
+            <tr cellpadding="20px">
+                <td style="margin-left: 20px;"><img src="../IMAGE/about-1.jpg" width="270" /> </td>
+                <td><img src="../IMAGE/about-2.jpg" width="150"/> </td>
+            </tr>
+        </table>
+    </body>
+</html>

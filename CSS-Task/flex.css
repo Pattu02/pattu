@@ -1,0 +1,342 @@
+/*FLEX DESIGN 1*/
+
+.flexdesign1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(1, 1, 43);
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: .8%;
+    padding-right: .8%;
+    position: relative;
+}
+
+.flextop1 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: orangered;
+}
+
+.flextop2 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: rgb(238, 141, 31);
+}
+
+.flextop3 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: rgb(21, 168, 131);
+}
+
+.flextop4 {
+    width: 90%;
+    height: 20%;
+    padding: 1%;
+    background-color: rgba(246, 252, 248, 0.973);
+    border-radius: 7%;
+}
+
+.flex1 {
+    margin-top: 2%;
+    width: 700px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(224, 99, 15);
+}
+
+.flex2 {
+    margin-top: 2%;
+    width: 250px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(35, 170, 118);
+}
+
+.flex3 {
+    margin-top: 2%;
+    width: 250px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(236, 170, 26);
+}
+
+.flex4 {
+    margin-top: 1%;
+    width: 289px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(209, 134, 85);
+}
+
+.flex5 {
+    margin-top: 1%;
+    width: 289px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(19, 185, 158);
+}
+
+.flex6 {
+    margin-top: 1%;
+    margin-right: 23%;
+    width: 250px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(64, 197, 153);
+}
+
+.flex7 {
+    margin-top: 1%;
+    align-items: start;
+    width: 600px;
+    height: 15px;
+    padding: 6%;
+    background-color: rgb(207, 83, 46);
+}
+
+.flex8 {
+    margin-top: 1%;
+    width: 250px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(10, 138, 121);
+}
+
+.flex9 {
+    margin-top: 1%;
+    width: 250px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(230, 119, 56);
+}
+
+.flex10 {
+    width: 250px;
+    padding: 2.86%;
+    background-color: rgb(12, 121, 97);
+    position: absolute;
+    top: 65%;
+    right: 25%;
+}
+
+.flex11 {
+    margin-top: 1%;
+    width: 1059px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(21, 207, 198);
+}
+
+.flex12 {
+    margin-top: 1%;
+    width: 250px;
+    height: 20%;
+    padding: 3%;
+    background-color: rgb(228, 195, 89);
+}
+
+/*FLEX DESIGN 2*/
+
+
+.flexdesign2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(1, 1, 43);
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: .8%;
+    padding-right: .8%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.flextop1 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: orangered;
+}
+
+.flextop2 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: rgb(238, 141, 31);
+}
+
+.flextop3 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: rgb(21, 168, 131);
+}
+
+.flextop4 {
+    width: 90%;
+    height: 20%;
+    padding: 1%;
+    background-color: rgba(246, 252, 248, 0.973);
+    border-radius: 7%;
+}
+.flex13 {
+    margin-top: 2%;
+    width: 650px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(224, 99, 15);
+}
+
+.flex14 {
+    margin-top: 2%;
+    width: 650px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(35, 170, 118);
+}
+
+.flex15 {
+    margin-top: 2%;
+    width: 650px;
+    height:300px;
+    padding: 3%;
+    margin-right: 48%;
+    background-color: rgb(201, 90, 16);
+    margin-left:-1%;
+}
+.flexgroup{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(53, 189, 144);
+    width: 740px;
+    height: 390px;
+    justify-content: space-evenly;
+    position: absolute;
+    top:34%;
+    right: 2%;
+}
+.flex16 {
+    margin-top: 2%;
+    width: 660px;
+    height: 35%;
+    padding: 3%;
+    background-color: rgb(120, 223, 185);
+}
+.flex17 {
+    width: 300px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(24, 243, 159);
+}
+.flex18 {
+    width: 300px;
+    height: 30%;
+    padding: 3%;
+    background-color: rgb(211, 144, 20);
+}
+
+/*FLEX DESIGN 3*/
+
+.flexdesign3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(1, 1, 43);
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: .8%;
+    padding-right: .8%;
+    margin-top: 5%;
+}
+
+.flextop1 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: orangered;
+}
+
+.flextop2 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: rgb(238, 141, 31);
+}
+
+.flextop3 {
+    padding: 10px;
+    border-radius: 60%;
+    background-color: rgb(21, 168, 131);
+}
+
+.flextop4 {
+    width: 90%;
+    height: 20%;
+    padding: 1%;
+    background-color: rgba(246, 252, 248, 0.973);
+    border-radius: 7%;
+}
+.flex19 {
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(224, 99, 15);
+
+}
+.flex20{
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(231, 177, 77);
+}
+.flex21 {
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(58, 218, 183);
+}
+.flex22 {
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(21, 155, 121);
+}
+.flex23 {
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(24, 109, 105);
+}
+
+.flex24 {
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(240, 178, 97);
+}
+
+.flex25 {
+    margin-top: 2%;
+    width: 190px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(224, 99, 15);
+}
+
+.flex26 {
+    margin-top: 2%;
+    width: 800px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(204, 123, 47);
+}
+.flex27 {
+    margin-top: 2%;
+    width: 1400px;
+    height: 45px;
+    padding: 3%;
+    background-color: rgb(31, 202, 165);
+}

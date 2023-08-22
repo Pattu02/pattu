@@ -1,0 +1,54 @@
+.flexdesign2{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    background-color: darkgrey;
+    
+}
+.flexgroup1{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    padding: 3%;
+
+}
+.flexgroup1 .flex1{
+    padding: 3%;
+    height: 10px;
+    background-color: aquamarine;
+    margin: 1%;
+}
+.flexgroup2{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    padding: 3%;
+}
+.flexgroup2 .flex2{
+    padding: 3%;
+    background-color: rgb(190, 54, 12);
+    height: 10px;
+    margin: 1%;
+
+}
+.flexgroup3{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    padding: 3%;
+}
+.flexgroup3 .flex3{
+    padding: 3%;
+    background-color: rgb(226, 212, 208);
+    height: 10px;
+    margin: 1%;
+
+}
+@media only screen and (min-width:380px)and (max-width:480px) {
+
+    .flexgroup1{
+        grid-template-columns: repeat(1,100%);
+}
+.flexgroup2{
+    grid-template-columns: repeat(2,50%);
+}
+.flexgroup3{
+    grid-template-columns: repeat(3,33%);
+}
+}

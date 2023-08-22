@@ -1,0 +1,16 @@
+#sam{
+    color:rgb(202, 136, 13)
+}
+.one{
+    color:aqua;
+}
+.two{
+    color:darkcyan;
+    font-size: 30px;
+}
+/*.one p{
+    color:brown;
+}*/
+p~h1{
+    color:deeppink;
+}

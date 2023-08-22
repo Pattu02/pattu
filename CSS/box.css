@@ -1,0 +1,28 @@
+.one{
+    border:.5px dotted rgb(92, 92, 110); 
+    width:50%;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 20px;
+}
+.one{margin: 10px;
+    padding-left: 40px;
+
+}
+.two{
+    width: 80%;
+    border: 10px solid red;
+}
+.three{
+    border:.5px dotted rgb(92, 92, 110); 
+    width:50vw;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 20px;
+}
+.three{margin: 10px;
+    padding-left: 40px;
+
+}
+.four{
+    width: 80%;
+    border:10px solid red;
+}

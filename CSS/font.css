@@ -1,0 +1,27 @@
+p{
+    width:1000px
+}
+p{
+    color: rgb(16, 78, 78);
+    font-size: 40px;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    text-align:justify;
+    text-decoration:underline;
+    text-shadow: 0 0 10px grey;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-transform: capitalize;}
+    /*white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+ }
+ #rem{
+    font-size:30px;
+    border:10px solid red
+ }
+ p{
+    font-size:2rem;
+    border:5px solid blue
+ }

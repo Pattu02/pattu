@@ -1,0 +1,87 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    transition: ease-in-out, .5s;
+}
+
+* a{
+    text-decoration: none !important;
+    font-family: "Poppins", sans-serif !important;
+    color: #fff!important;
+}
+
+* div {
+    width: 100%;
+}
+
+.bg {
+    background-image: url(../IMAGE/hero-bg.jpg);
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url(../IMAGE/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.fixed-top {
+    background: rgba(24, 6, 185, 0.8);
+    width: 100.7%;
+}
+
+.bg1 {
+    background-image: url(../IMAGE/hero-bg.jpg);
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url(../IMAGE/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.test {
+    position: relative;
+    padding-bottom: 9%;
+    background-color: #f4f2f8;
+}
+
+.one {
+    position: absolute;
+    left: 12%;
+    top: 64%;
+    width: 20% !important;
+}
+
+.two {
+    position: absolute;
+    left: 39%;
+    top: 64%;
+    width: 20% !important;
+}
+
+.three {
+    position: absolute;
+    left: 65%;
+    top: 64%;
+    width: 20% !important;
+}
+
+.faq {
+    background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%)
+}
+
+.bg2 {
+    background-image: url(../IMAGE/hero-bg.jpg);
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url(../IMAGE/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.ser {
+    background-color: #f4f2f8;
+}
+.cont {
+    background-color: #f4f2f8;
+}

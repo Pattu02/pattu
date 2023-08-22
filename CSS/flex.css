@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: yellow;
+    padding: 1%;
+}
+.flex1{
+    box-shadow: 0 0 5px grey;
+    width:450px;
+    height: 200px;
+    background-color: aqua;
+}
+.flex2{
+    margin-top: 30px;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0 0 5px grey;
+    background-color: blueviolet;
+}
+.flex3{
+    margin-top: 30px;
+    width: 1450px;
+    height: 200px;
+    box-shadow: 0 0 5px grey;
+    background-color: chartreuse;
+}

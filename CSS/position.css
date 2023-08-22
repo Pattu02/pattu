@@ -1,0 +1,37 @@
+#one{
+    position:fixed;
+    width:100%;
+    top:0px;
+    background-color: chartreuse;
+    padding-left:50px;
+    margin-top:0px;
+}
+h2{
+    position: sticky;
+    width: 100%;
+    top:38px;
+    background-color: darkgoldenrod;
+    padding-left:100px ;
+}
+#one+p{
+    margin-top: 40px;
+}
+div button{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+div{
+    position: relative;
+    width:450px
+}
+#two{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    padding:5px;
+    border-radius: 5px;
+}
+body{
+    margin:0px;
+}

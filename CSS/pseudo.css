@@ -1,0 +1,73 @@
+p::first-letter{
+    color: brown;
+    font-size: large;
+}
+p::first-line{
+    color:rgb(61, 228, 88);
+}
+::marker{
+    color:red;
+    font-size:30px;
+}
+p::before{
+    content:"hello";
+}
+p::after{
+    content:"sam";
+}
+dialog::backdrop{
+    background-color: rgb(216, 136, 45);
+}
+input::placeholder{
+    color:red;
+}
+p::selection{
+    color: aqua;
+}
+#one:active{
+    color:rgba(197, 54, 54, 0.815);
+}
+a:any-link{
+    color:rgb(60, 167, 17);
+}
+a:hover{
+    color:aquamarine;
+}
+a:focus{
+    color:rgb(206, 206, 216)
+}
+a:visited{
+    color: chocolate;
+}
+input{
+    border:3px solid grey
+}
+*:enabled{
+    background-color: rgb(150, 223, 223);
+}
+*:disabled{
+    background-color: blueviolet;
+}
+*:read-only{
+    color: fuchsia;
+}
+input:read-write{
+    background-color: deeppink;
+}
+input:checked{
+    outline:2px solid gold;
+}
+input:invalid
+{
+    background-color: rgb(204, 87, 79);
+}
+input:in-range{
+    background-color: rgb(22, 235, 22);
+}
+[type="number"]:out-of-range{
+    background-color: rgb(236, 51, 37);
+}
+table tr:nth-child(1){
+    background-color:blue;
+    color: rgb(232, 243, 243);
+}
