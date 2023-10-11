@@ -1,23 +1,23 @@
 let btnElem = document.getElementById("btn")
 let prtElem = document.getElementById("parent")
 let intElem = document.getElementById("int")
-let no = 1
+let i = 1
 btnElem.addEventListener("click", function () {
     if (intElem.value !== "") {
         let newElem = document.createElement("p")
         prtElem.append(newElem)
-        newElem.append(no + "." + intElem.value + " ")
-        no++
+        newElem.append(i + "." + intElem.value + " ")
+        i++
         intElem.value = ""
         let newbtn = document.createElement("button")
         newbtn.append("x")
         newElem.append(newbtn)
-        return newbtn.addEventListener("click", function () {
-            return newElem.remove()
+        newbtn.addEventListener("click", function () {
+            newElem.remove()
         })
     }
     else {
-        alert("***  Type Something!!!  ***")
+        alert("***  Type Something  ***")
     }
 })
 
